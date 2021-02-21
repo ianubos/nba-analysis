@@ -14,14 +14,19 @@ npm install -g netlify-cli netlify-lambda
 npm install
 npm start
 ```
-3. other functions
- - get data from api
+
+## get data
+get data from api
 ```
 node getData.js
 ```
-- netlify deploy
+## netlify deploy
+remember login
 ```
 netlify login
+```
+build and deploy commands
+```
 npm run-script build
 npm run-script deploy:prod
 npm run-script deploy:draft
@@ -29,4 +34,5 @@ npm run-script deploy:draft
 
 
 ## problems
-[node-sass is problematic...](https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0)
+[node-sass is problematic...](https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0)  
+Now this project use styled-components instead of sass/scss
