@@ -9,7 +9,7 @@ API_URL=api-nba-v1.p.rapidapi.com
 ```
 2.follow the commands on root directory
 ```
-git clone 
+git clone https://github.com/ianubos/nba-analysis.git
 npm install -g netlify-cli netlify-lambda
 npm install
 npm start
@@ -19,7 +19,7 @@ npm start
 ```
 node getData.js
 ```
- - netlify deploy
+- netlify deploy
 ```
 netlify login
 npm run-script build
