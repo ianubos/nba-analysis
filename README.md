@@ -38,3 +38,6 @@ react, [api-nba](https://rapidapi.com/api-sports/api/api-nba), netlify serverles
 ## problems
 [node-sass is problematic...](https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0)  
 Now this project use styled-components instead of sass/scss
+
+## references
+[Visualising evolution of the NBA offence through data](https://towardsdatascience.com/tagged/nba)
