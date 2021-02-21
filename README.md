@@ -33,7 +33,7 @@ npm run-script deploy:draft
 ```
 
 ## tech stacks
-react, [api-nba](https://rapidapi.com/api-sports/api/api-nba), netlify serverless functions, styled-components
+react, [api-nba](https://rapidapi.com/api-sports/api/api-nba), netlify serverless functions, faunadb, styled-components
 
 ## problems
 [node-sass is problematic...](https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0)  
