@@ -32,6 +32,8 @@ npm run-script deploy:prod
 npm run-script deploy:draft
 ```
 
+## tech stacks
+react, [api-nba](https://rapidapi.com/api-sports/api/api-nba) netlify
 
 ## problems
 [node-sass is problematic...](https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0)  
