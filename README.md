@@ -1,23 +1,26 @@
 # nba-analysis
 
 ## setup
-prepare .env file and place it on root directory  
+1.prepare .env file and place it on root directory  
 change the yourapikey to your apikey
 ```
 API_KEY=yourapikey
 API_URL=api-nba-v1.p.rapidapi.com
 ```
-
-follow the commands on root directory
+2.follow the commands on root directory
 ```
 git clone 
 npm install -g netlify-cli netlify-lambda
-
+npm install
+npm start
 ```
-
+3. other functions
+ - get data from api
 ```
 node getData.js
-
+```
+ - netlify deploy
+```
 netlify login
 npm run-script build
 npm run-script deploy:prod
