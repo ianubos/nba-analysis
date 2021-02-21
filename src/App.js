@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
-import AppStyle from "./App.module.scss"
 import Header from "./components/header/Header"
 
 const AnotherPage = () => <h1>Another Page</h1>;
